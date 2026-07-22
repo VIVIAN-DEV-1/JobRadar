@@ -1,19 +1,35 @@
 {
   "target": {
-    "intern": ["summer intern", "off-season intern"],
-    "full-time": ["entry level"],
-    "countries": ["USA"],
+    "intern": [
+      "summer intern",
+      "off-season intern"
+    ],
+    "full-time": [
+      "entry level"
+    ],
+    "countries": [
+      "USA",
+      "Remote"
+    ],
     "filter": {
       "USA": {
+        "allow_citizenship_required": false,
+        "allow_no_sponsorship": false
+      },
+      "Remote": {
         "allow_citizenship_required": false,
         "allow_no_sponsorship": false
       }
     },
     "keywords": [
       "software",
-      "swe",
       "system",
-      "systems",
+      "dev",
+      "develop",
+      "developer",
+      "development",
+      "software engineering",
+      "software engineer",
       "backend",
       "back-end",
       "frontend",
@@ -27,18 +43,12 @@
       "android",
       "data",
       "ai",
-      "ml",
-      "machine learning",
       "cloud",
       "infra",
-      "infrastructure",
-      "devops",
-      "sre",
-      "site reliability",
-      "security",
-      "automation",
-      "ui",
-      "ux"
+      "swe",
+      "sde",
+      "research",
+      "MS"
     ]
   },
   "ai": {
@@ -49,10 +59,10 @@
   "sender": {
     "host": "smtp.gmail.com",
     "port": 587,
-    "user": "donkey@ntu.im",
-    "email": "donkey@ntu.im"
+    "user": "weijiavivian00@gmail.com",
+    "email": "weijiavivian00@gmail.com"
   },
   "receiver": {
-    "email": "donkey.leelee@gmail.com"
+    "email": "themainoneonly@gmail.com"
   }
 }
