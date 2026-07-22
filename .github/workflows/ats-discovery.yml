@@ -52,6 +52,9 @@ jobs:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           PAT: ${{ secrets.PAT }}
           LOG_PRETTY: "1"
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/gcp-key.json
+          
       - name: Run ATS discovery pipeline
         id: sync
         env:
@@ -59,6 +62,8 @@ jobs:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           PAT: ${{ secrets.PAT }}
           LOG_PRETTY: "1"
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/gcp-key.json
         run: |
           pnpm jobctl scan
 
