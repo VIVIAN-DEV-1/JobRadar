@@ -561,7 +561,7 @@
 <p><sub>Showing 20 of 821 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (5,589)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (5,590)</b></summary>
 
   <br />
 
@@ -722,7 +722,7 @@
 </table>
 <p><sub>Showing 20 of 3,122 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (2,467)</h3>
+  <h3>Senior Level (2,468)</h3>
 
 <table width="100%">
   <thead>
@@ -735,6 +735,13 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td width="180" align="left" valign="top">Alsacstjude</td>
+      <td width="420" align="left" valign="top">Advisor - Area Development (Brighton, MA)</td>
+      <td width="180" align="left" valign="top">Brighton, MA</td>
+      <td width="120" align="left" valign="top"><a href="https://alsacstjude.wd1.myworkdayjobs.com/careersalsacstjude/job/Boston-MA/Advisor---Area-Development--Brighton--MA-_R0010768"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 22</td>
+    </tr>
     <tr>
       <td width="180" align="left" valign="top">U.S. Bank</td>
       <td width="420" align="left" valign="top">Business Development Executive (BDE) - Institutional Client Group</td>
@@ -868,16 +875,9 @@
       <td width="120" align="left" valign="top"><a href="https://zebra.wd501.myworkdayjobs.com/zebra_careers/job/Lincolnshire-Illinois/Software-Engineer---Advanced-2_JR101924-1"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 21</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Salesforce</td>
-      <td width="420" align="left" valign="top">Software Engineering SMTS/LMTS</td>
-      <td width="180" align="left" valign="top">San Francisco, CA</td>
-      <td width="120" align="left" valign="top"><a href="https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/Washington---Bellevue/Software-Engineering-SMTS-LMTS_JR352971"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 21</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 2,467 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 2,468 opportunities in this section.</sub></p>
 
 </details>
 
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-22T07:52:51.416Z</code>
+      🕒 Last updated <code>2026-07-22T10:00:17.024Z</code>
     </span>
   </p>
 </div>
