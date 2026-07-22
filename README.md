@@ -6,7 +6,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/AI%20Parsed-google%20%2F%20gemini--2.5--flash-blue" />
-  <img src="https://img.shields.io/badge/Countries-USA-green" />
+  <img src="https://img.shields.io/badge/Countries-USA%20%C2%B7%20Remote-green" />
   <img src="https://img.shields.io/badge/Updated-2026--07--22-orange" />
   <img src="https://img.shields.io/badge/License-MIT-yellow" />
 </p>
@@ -244,7 +244,7 @@
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 73 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 74 opportunities in this section.</sub></p>
 
 ### Off Season Intern
 
@@ -558,14 +558,14 @@
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 816 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 820 opportunities in this section.</sub></p>
 
 <details>
-  <summary><b>More in Mid Level &amp; Senior Level (5,558)</b></summary>
+  <summary><b>More in Mid Level &amp; Senior Level (5,579)</b></summary>
 
   <br />
 
-  <h3>Mid Level (3,104)</h3>
+  <h3>Mid Level (3,117)</h3>
 
 <table width="100%">
   <thead>
@@ -720,9 +720,9 @@
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 3,104 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 3,117 opportunities in this section.</sub></p>
 
-  <h3>Senior Level (2,454)</h3>
+  <h3>Senior Level (2,462)</h3>
 
 <table width="100%">
   <thead>
@@ -877,7 +877,7 @@
     </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 2,454 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 2,462 opportunities in this section.</sub></p>
 
 </details>
 
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-22T03:57:19.818Z</code>
+      🕒 Last updated <code>2026-07-22T05:55:26.026Z</code>
     </span>
   </p>
 </div>
