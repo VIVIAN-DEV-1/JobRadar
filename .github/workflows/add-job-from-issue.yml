@@ -50,7 +50,7 @@ jobs:
           cache: "pnpm"
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --no-frozen-lockfile
 
       - name: Process submitted job
         run: pnpm tsx scripts/add-job-from-issue.ts
