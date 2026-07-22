@@ -20,11 +20,11 @@ jobs:
     timeout-minutes: 30
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.PAT }}
+      # - name: Checkout repository
+      #   uses: actions/checkout@v6
+      #   with:
+      #     fetch-depth: 0
+      #     token: ${{ secrets.PAT }}
 
       - name: Set up GCP Credentials
         run: |
@@ -45,15 +45,15 @@ jobs:
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
 
-      - name: Check configuration
-        run: pnpm jobctl setup check-config
-        env:
-          SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          AI_API_KEY: ${{ secrets.AI_API_KEY }}
-          PAT: ${{ secrets.PAT }}
-          LOG_PRETTY: "1"
-          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
-          GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/gcp-key.json
+      # - name: Check configuration
+      #   run: pnpm jobctl setup check-config
+      #   env:
+      #     SMTP_PASS: ${{ secrets.SMTP_PASS }}
+      #     AI_API_KEY: ${{ secrets.AI_API_KEY }}
+      #     PAT: ${{ secrets.PAT }}
+      #     LOG_PRETTY: "1"
+      #     GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+      #     GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/gcp-key.json
           
       - name: Run ATS discovery pipeline
         id: sync
