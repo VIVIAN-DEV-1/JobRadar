@@ -25,6 +25,8 @@ jobs:
       SMTP_PASS: ${{ secrets.SMTP_PASS }}
       AI_API_KEY: ${{ secrets.AI_API_KEY }}
       PAT: ${{ secrets.PAT }}
+      GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+      GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/gcp-key.json
 
     steps:
       - name: Checkout repository
