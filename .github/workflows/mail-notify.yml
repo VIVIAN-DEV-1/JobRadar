@@ -49,16 +49,16 @@ jobs:
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
 
-      # # ✅ Check configuration
-      # - name: Check configuration
-      #   env:
-      #     SMTP_PASS: ${{ secrets.SMTP_PASS }}
-      #     PAT: ${{ secrets.PAT }}
-      #     AI_API_KEY: ${{ secrets.AI_API_KEY }}
-      #     LOG_PRETTY: "1"
-      #     GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
-      #     GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/gcp-key.json
-      #   run: pnpm jobctl setup check-config
+      # ✅ Check configuration
+      - name: Check configuration
+        env:
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          PAT: ${{ secrets.PAT }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          LOG_PRETTY: "1"
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/gcp-key.json
+        run: pnpm jobctl setup check-config
 
       # ✅ Notify jobs from current commit
       - name: Notify jobs from commit
