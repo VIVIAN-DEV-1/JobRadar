@@ -27,6 +27,11 @@ jobs:
         with:
           fetch-depth: 2
 
+      - name: Set up GCP Credentials
+        run: |
+          echo '${{ secrets.GCP_CREDENTIALS }}' > $GITHUB_WORKSPACE/gcp-key.json
+          echo "GOOGLE_APPLICATION_CREDENTIALS=$GITHUB_WORKSPACE/gcp-key.json" >> $GITHUB_ENV  
+
       # ✅ Setup pnpm
       - name: Setup pnpm
         uses: pnpm/action-setup@v6
