@@ -61,33 +61,33 @@ export async function generateWithGoogle({
 //     return inputTokens * priceIn + outputTokens * priceOut;
 //   }
 
-  public async validateModel(model: string): Promise<void> {
-    await this.client.models.get({ model });
-  }
+//   public async validateModel(model: string): Promise<void> {
+//     await this.client.models.get({ model });
+//   }
 
-  async generate(prompt: string, schema: Schema, model: string): Promise<AIResponse> {
-    try {
-      const response = await withRetry(() =>
-        this.client.models.generateContent({
-          model,
-          contents: prompt,
-          config: {
-            responseMimeType: "application/json",
-            responseSchema: schema,
-          },
-        })
-      );
+//   async generate(prompt: string, schema: Schema, model: string): Promise<AIResponse> {
+//     try {
+//       const response = await withRetry(() =>
+//         this.client.models.generateContent({
+//           model,
+//           contents: prompt,
+//           config: {
+//             responseMimeType: "application/json",
+//             responseSchema: schema,
+//           },
+//         })
+//       );
 
-      return {
-        result: response.text ?? null,
-        cost: this.calculateCost(response),
-      };
-    } catch (error) {
-      logger.error({ err: error }, `${RED_CROSS} Error generating Google response`);
-      return {
-        result: null,
-        cost: 0,
-      };
-    }
-  }
-}
+//       return {
+//         result: response.text ?? null,
+//         cost: this.calculateCost(response),
+//       };
+//     } catch (error) {
+//       logger.error({ err: error }, `${RED_CROSS} Error generating Google response`);
+//       return {
+//         result: null,
+//         cost: 0,
+//       };
+//     }
+//   }
+// }
