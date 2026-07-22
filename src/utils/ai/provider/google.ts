@@ -9,29 +9,57 @@ import { withRetry } from "./utils";
 
 import { logger } from "@/utils/logger";
 
-export class GoogleProvider implements AIProvider {
-  private client: GoogleGenAI;
+import { VertexAI } from "@google-cloud/vertexai";
 
-  constructor(apiKey: string) {
-    this.client = new GoogleGenAI({ apiKey });
-  }
+export async function generateWithGoogle({
+  model = "gemini-1.5-flash",
+  prompt,
+}: {
+  model?: string;
+  prompt: string;
+}) {
+  // VertexAI automatically detects GOOGLE_APPLICATION_CREDENTIALS set in your workflow environment
+  const vertexAI = new VertexAI({
+    project: process.env.GCP_PROJECT_ID || "jobradar-ai-project",
+    location: process.env.GCP_REGION || "us-central1",
+  });
 
-  private calculateCost(response: GenerateContentResponse): number {
-    const usage = response.usageMetadata;
+  const generativeModel = vertexAI.getGenerativeModel({
+    model: model,
+  });
 
-    if (!usage) {
-      return 0;
-    }
+  const resp = await generativeModel.generateContent(prompt);
+  const response = await resp.response;
+  
+  const candidate = response.candidates?.[0];
+  const text = candidate?.content?.parts?.[0]?.text || "";
 
-    const inputTokens = usage.promptTokenCount ?? 0;
-    const outputTokens = usage.candidatesTokenCount ?? 0;
+  return text;
+}
 
-    // TODO: adjust by model if you switch Gemini model.
-    const priceIn = 0.3 / 1_000_000;
-    const priceOut = 2.5 / 1_000_000;
+// export class GoogleProvider implements AIProvider {
+//   private client: GoogleGenAI;
 
-    return inputTokens * priceIn + outputTokens * priceOut;
-  }
+//   constructor(apiKey: string) {
+//     this.client = new GoogleGenAI({ apiKey });
+//   }
+
+//   private calculateCost(response: GenerateContentResponse): number {
+//     const usage = response.usageMetadata;
+
+//     if (!usage) {
+//       return 0;
+//     }
+
+//     const inputTokens = usage.promptTokenCount ?? 0;
+//     const outputTokens = usage.candidatesTokenCount ?? 0;
+
+//     // TODO: adjust by model if you switch Gemini model.
+//     const priceIn = 0.3 / 1_000_000;
+//     const priceOut = 2.5 / 1_000_000;
+
+//     return inputTokens * priceIn + outputTokens * priceOut;
+//   }
 
   public async validateModel(model: string): Promise<void> {
     await this.client.models.get({ model });
