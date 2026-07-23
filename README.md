@@ -417,6 +417,20 @@
   </thead>
   <tbody>
     <tr>
+      <td width="180" align="left" valign="top">Amazon</td>
+      <td width="420" align="left" valign="top">EFA Network Software Engineer 1 - Annapurna Labs</td>
+      <td width="180" align="left" valign="top">Seattle, WA</td>
+      <td width="120" align="left" valign="top"><a href="https://amazon.jobs/en/jobs/10481932/efa-network-software-engineer-i-annapurna-labs"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 22</td>
+    </tr>
+    <tr>
+      <td width="180" align="left" valign="top">Traba</td>
+      <td width="420" align="left" valign="top">Software Engineer New Grad</td>
+      <td width="180" align="left" valign="top">New York City, NY</td>
+      <td width="120" align="left" valign="top"><a href="https://jobs.ashbyhq.com/traba/90d6307c-1bb1-4abf-8e73-7afa6a7e0a70/application?embed=true"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
+      <td width="100" align="left" valign="top">July 22</td>
+    </tr>
+    <tr>
       <td width="180" align="left" valign="top">AQR</td>
       <td width="420" align="left" valign="top">Business Development Analyst - U.S. Wealth</td>
       <td width="180" align="left" valign="top">Greenwich, CT</td>
@@ -542,23 +556,9 @@
       <td width="120" align="left" valign="top"><a href="https://job-boards.greenhouse.io/axon/jobs/7576969003"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
       <td width="100" align="left" valign="top">July 21</td>
     </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Aoins</td>
-      <td width="420" align="left" valign="top">Math Major Software Developer<br /><img height="18" alt="citizen only" src="https://img.shields.io/badge/citizen%20only-ff6b6b?style=plastic" /> <img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Lansing, MI</td>
-      <td width="120" align="left" valign="top"><a href="https://aoins.wd5.myworkdayjobs.com/autoowners/job/Lansing-MI/Math-Major-Software-Developer_R_1008"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 21</td>
-    </tr>
-    <tr>
-      <td width="180" align="left" valign="top">Sas</td>
-      <td width="420" align="left" valign="top">Software Developer (Emerging Careers)<br /><img height="18" alt="no visa" src="https://img.shields.io/badge/no%20visa-60a5fa?style=plastic" /></td>
-      <td width="180" align="left" valign="top">Cary, NC</td>
-      <td width="120" align="left" valign="top"><a href="https://careers-sas.icims.com/jobs/42306/software-developer-%28emerging-careers%29/job"><img height="28" alt="apply" src="https://img.shields.io/badge/Apply-f97316?style=for-the-badge&logoColor=white" /></a></td>
-      <td width="100" align="left" valign="top">July 21</td>
-    </tr>
   </tbody>
 </table>
-<p><sub>Showing 20 of 821 opportunities in this section.</sub></p>
+<p><sub>Showing 20 of 823 opportunities in this section.</sub></p>
 
 <details>
   <summary><b>More in Mid Level &amp; Senior Level (5,592)</b></summary>
@@ -898,7 +898,7 @@
     <span style="color:#374151;">
       📦 Generated from <code>opportunities.ndjson</code>
       &nbsp;•&nbsp;
-      🕒 Last updated <code>2026-07-23T00:38:21.458Z</code>
+      🕒 Last updated <code>2026-07-23T02:32:28.673Z</code>
     </span>
   </p>
 </div>
